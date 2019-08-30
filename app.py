@@ -8,7 +8,7 @@ app =Flask(__name__)
 #comment
 @app.route('/')
 def root():
-    return 'Just a github webhook'
+    return 'Just a test'
 
 @app.route('/table', methods=['POST'])
 def github_message():
